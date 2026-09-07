@@ -1043,6 +1043,7 @@ export interface ApiAdSessionItemAdSessionItem extends Schema.CollectionType {
     tiempo_efectivo_ms: Attribute.Integer & Attribute.DefaultTo<0>;
     ultimo_tick: Attribute.DateTime;
     ultima_posicion_seg: Attribute.Decimal;
+    duracion_real: Attribute.Decimal & Attribute.DefaultTo<0>;
     recompensa: Attribute.Decimal & Attribute.DefaultTo<0>;
     recompensa_emitida: Attribute.Boolean & Attribute.DefaultTo<false>;
     inicio: Attribute.DateTime;

@@ -8,6 +8,6 @@
  */
 module.exports = async function buscarUsuarioAnuncios(strapi) {
   return strapi.db.query('plugin::users-permissions.user').findOne({
-    where: { email: 'demo-ads@ciudadan.org' },
+    where: { email: 'cooperativalibreparaiso@gmail.com' },
   });
 };
