@@ -23,6 +23,7 @@ entorno y despliegue.
 | **[`06-Ramas-y-Git.md`](06-Ramas-y-Git.md)** | Todas las ramas del repositorio, su propósito, commits recientes y flujo de trabajo |
 | **[`07-Variables-de-Entorno.md`](07-Variables-de-Entorno.md)** | Todas las variables de entorno por servicio (backend, frontend, socket) |
 | **[`08-Guia-Usuario-Wiki.md`](08-Guia-Usuario-Wiki.md)** | Guía de usuario del visor de Wiki y los wikilinks (enlaces entre documentos estilo Obsidian) |
+| **[`09-Guia-Usuario-Sitio.md`](09-Guia-Usuario-Sitio.md)** | **Guía maestra de usuario del sitio**: cuenta, perfil, favoritos, referidos, membresías, CoWork/laborys, marketplace, comida, taxis, anuncios, cartera, eventos, cursos, comunidad y wiki |
 
 ---
 
