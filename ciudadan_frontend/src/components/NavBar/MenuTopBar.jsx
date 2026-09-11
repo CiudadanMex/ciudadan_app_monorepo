@@ -3,23 +3,25 @@ import { useNavigate } from 'react-router-dom';
 
 import './MenuTopBar.css';
 
-import wikiImage from '../../assets/wikiciudadan.png';
-import quienesImage from '../../assets/quienes.png';
-import logoImage from '../../assets/logo_cuadro.png';
-import helpImage from '../../assets/help.png';
-import contactImage from '../../assets/faq.png';
-import VideosImage from '../../assets/videos.png';
+import wikiImage from '../../assets/topbarmenu/wiki.svg';
+import quienesImage from '../../assets/topbarmenu/quienes.svg';
+import ciudadanRosaImage from '../../assets/topbarmenu/ciudadan_rosa.svg';
+import ayudaImage from '../../assets/topbarmenu/ayuda.svg';
+import faqImage from '../../assets/topbarmenu/faq.svg';
+import contactoImage from '../../assets/topbarmenu/contacto.svg';
+import youtubeImage from '../../assets/topbarmenu/youtube.svg';
 
 /**
  * Nuevo mapa de items (tal como lo pediste)
  */
 const DEFAULT_ITEMS = [
-  { href: "/", img: logoImage, alt: "Presentación", label: "Presentación" },
+  { href: "/", img: ciudadanRosaImage, alt: "Presentación", label: "Presentación" },
   { href: "/info/quienes", img: quienesImage, alt: "¿Quiénes Somos?", label: "¿Quiénes Somos?" },
   { href: "/wiki", img: wikiImage, alt: "Wiki Ciudadan.org", label: "Wiki", target: "_blank" },
-  { href: "/wiki/faq", img: contactImage, alt: "Preguntas Frecuentes", label: "Preguntas Frecuentes" },
-  { href: "/wiki/ayuda", img: helpImage, alt: "Ayuda", label: "Ayuda" },
-  { href: "https://www.youtube.com/@ciudadanmex", img: VideosImage, alt: "Canal YT", label: "Canal YT", target: "_blank" },
+  { href: "/wiki/faq", img: faqImage, alt: "Preguntas Frecuentes", label: "Preguntas Frecuentes" },
+  { href: "/wiki/ayuda", img: ayudaImage, alt: "Ayuda", label: "Ayuda" },
+  { href: "/contacto", img: contactoImage, alt: "Contacto", label: "Contacto" },
+  { href: "https://www.youtube.com/@ciudadanmex", img: youtubeImage, alt: "Canal YT", label: "Canal YT", target: "_blank" },
 ];
 
 const MOBILE_MAX = 1000;

@@ -89,6 +89,8 @@
 .menu-topbar-grid-svg {
     width: 60px;
     height: 60px;
+    object-fit: contain;
+    object-position: center;
     filter: drop-shadow(0 0 4px #00ff88);
 }
 
